@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hanna Särnblad</title>
+</head>
+<body>
+  <!--NAV-->
+  <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-flower1" viewBox="0 0 16 16">
+        <path d="M6.174 1.184a2 2 0 0 1 3.652 0A2 2 0 0 1 12.99 3.01a2 2 0 0 1 1.826 3.164 2 2 0 0 1 0 3.652 2 2 0 0 1-1.826 3.164 2 2 0 0 1-3.164 1.826 2 2 0 0 1-3.652 0A2 2 0 0 1 3.01 12.99a2 2 0 0 1-1.826-3.164 2 2 0 0 1 0-3.652A2 2 0 0 1 3.01 3.01a2 2 0 0 1 3.164-1.826M8 1a1 1 0 0 0-.998 1.03l.01.091q.017.116.054.296c.049.241.122.542.213.887.182.688.428 1.513.676 2.314L8 5.762l.045-.144c.248-.8.494-1.626.676-2.314.091-.345.164-.646.213-.887a5 5 0 0 0 .064-.386L9 2a1 1 0 0 0-1-1M2 9l.03-.002.091-.01a5 5 0 0 0 .296-.054c.241-.049.542-.122.887-.213a61 61 0 0 0 2.314-.676L5.762 8l-.144-.045a61 61 0 0 0-2.314-.676 17 17 0 0 0-.887-.213 5 5 0 0 0-.386-.064L2 7a1 1 0 1 0 0 2m7 5-.002-.03a5 5 0 0 0-.064-.386 16 16 0 0 0-.213-.888 61 61 0 0 0-.676-2.314L8 10.238l-.045.144c-.248.8-.494 1.626-.676 2.314-.091.345-.164.646-.213.887a5 5 0 0 0-.064.386L7 14a1 1 0 1 0 2 0m-5.696-2.134.025-.017a5 5 0 0 0 .303-.248c.184-.164.408-.377.661-.629A61 61 0 0 0 5.96 9.23l.103-.111-.147.033a61 61 0 0 0-2.343.572c-.344.093-.64.18-.874.258a5 5 0 0 0-.367.138l-.027.014a1 1 0 1 0 1 1.732zM4.5 14.062a1 1 0 0 0 1.366-.366l.014-.027q.014-.03.036-.084a5 5 0 0 0 .102-.283c.078-.233.165-.53.258-.874a61 61 0 0 0 .572-2.343l.033-.147-.11.102a61 61 0 0 0-1.743 1.667 17 17 0 0 0-.629.66 5 5 0 0 0-.248.304l-.017.025a1 1 0 0 0 .366 1.366m9.196-8.196a1 1 0 0 0-1-1.732l-.025.017a5 5 0 0 0-.303.248 17 17 0 0 0-.661.629A61 61 0 0 0 10.04 6.77l-.102.111.147-.033a61 61 0 0 0 2.342-.572c.345-.093.642-.18.875-.258a5 5 0 0 0 .367-.138zM11.5 1.938a1 1 0 0 0-1.366.366l-.014.027q-.014.03-.036.084a5 5 0 0 0-.102.283c-.078.233-.165.53-.258.875a61 61 0 0 0-.572 2.342l-.033.147.11-.102a61 61 0 0 0 1.743-1.667c.252-.253.465-.477.629-.66a5 5 0 0 0 .248-.304l.017-.025a1 1 0 0 0-.366-1.366M14 9a1 1 0 0 0 0-2l-.03.002a5 5 0 0 0-.386.064c-.242.049-.543.122-.888.213-.688.182-1.513.428-2.314.676L10.238 8l.144.045c.8.248 1.626.494 2.314.676.345.091.646.164.887.213a5 5 0 0 0 .386.064zM1.938 4.5a1 1 0 0 0 .393 1.38l.084.035q.108.045.283.103c.233.078.53.165.874.258a61 61 0 0 0 2.343.572l.147.033-.103-.111a61 61 0 0 0-1.666-1.742 17 17 0 0 0-.66-.629 5 5 0 0 0-.304-.248l-.025-.017a1 1 0 0 0-1.366.366m2.196-1.196.017.025a5 5 0 0 0 .248.303c.164.184.377.408.629.661A61 61 0 0 0 6.77 5.96l.111.102-.033-.147a61 61 0 0 0-.572-2.342c-.093-.345-.18-.642-.258-.875a5 5 0 0 0-.138-.367l-.014-.027a1 1 0 1 0-1.732 1m9.928 8.196a1 1 0 0 0-.366-1.366l-.027-.014a5 5 0 0 0-.367-.138c-.233-.078-.53-.165-.875-.258a61 61 0 0 0-2.342-.572l-.147-.033.102.111a61 61 0 0 0 1.667 1.742c.253.252.477.465.66.629a5 5 0 0 0 .304.248l.025.017a1 1 0 0 0 1.366-.366m-3.928 2.196a1 1 0 0 0 1.732-1l-.017-.025a5 5 0 0 0-.248-.303 17 17 0 0 0-.629-.661A61 61 0 0 0 9.23 10.04l-.111-.102.033.147a61 61 0 0 0 .572 2.342c.093.345.18.642.258.875a5 5 0 0 0 .138.367zM8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/>
+      </svg></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#content2">Om mig</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Projekt</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Intressen</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">Kontakta</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--MAIN-->
+  <div class="container" id="main1">
+    <div class="row">
+      <div class="col-md-6">
+        <div id="main1-name" class="d-flex justify-content-center align-items-center ">
+          <div id="name">
+            <h1>Hanna Särnblad</h1>
+          </div>
+        </div>
+        <div class="balls">
+          <div class="circle1"></div>
+          <div class="circle2"></div>
+          <div class="circle3"></div>
+          <div class="circle4"></div>
+          <div class="circle5"></div>
+        </div>
+        
+      </div>
+      <div class="col-md-6">
+        <div id="main1-image" class="d-flex justify-content-center align-items-center">
+          <img src="/profile.jpg" class="img-thumbnail" alt="profile">
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!--MAin2-->
+
+  <div class="container">
+
+    <hr>
+
+    <div class="row" id="main2">
+      <div class="col-md-6">
+        <h2 class="heading">Lite om mig. <span class="text-muted">Min resa.</span></h2>
+        <p class="lead">Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla Bla blaBla bla Bla bla Bla bla Bla bla Bla bla Bla blaBla bla Bla bla..</p>
+      </div>
+      <div class="col-md-6">
+        <div class="wrapper">
+          <h1> Min Tidslinje</h1>
+          <ul class="sessions">
+            <li>
+              <div class="time">09:00 AM</div>
+              <p>How is it already 9:00? Just how??? 🤯🤯</p>
+            </li>
+            <li>
+              <div class="time">09:05 AM</div>
+              <p>Few more minutes of sleep won't do anyone any harm 🤷..</p>
+            </li>
+            <li>
+              <div class="time">09:30 AM</div>
+              <p>Get up 🙄</p>
+            </li>
+            <li>
+              <div class="time">1:00 PM</div>
+              <p>How can I feel sleepy again?😵</p>
+            </li>
+            <li>
+              <div class="time">01:30 PM</div>
+              <p>Lunch time after which sleep just doesn't want to let go of me. 🤝</p>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="row">
+      <!--Storlek samt placering "order 1=höger 2=vänster"-->
+      <div class="col-md-7 order-md-2">
+        <h2 class="heading">Projekt.</h2>
+        <p class="lead">Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla Bla blaBla bla Bla bla Bla bla Bla bla Bla bla Bla blaBla bla Bla bla.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="row">
+      <div class="col-md-7">
+        <h2 class="heading">Intressen.</h2>
+        <p class="lead">Bla Bla Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla Bla blaBla bla Bla bla Bla bla Bla bla Bla bla Bla blaBla bla Bla bla. Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla Bla bla Bla blaBla bla Bla bla Bla bla Bla bla Bla bla Bla blaBla bla Bla bla.</p>
+      </div>
+      <div class="col-md-5">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container px-4 py-5" id="featured-3">
+    <h2 class="pb-2 border-bottom">Kontakta mig</h2>
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="col">
+        <div class="icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+          </svg>
+        </div>
+        <h2>Linkedin</h2>
+        <p>Här är mitt Linkedin konto ifall man vill veta mer om mina meriter och vill komma i kontakt med mig.</p>
+        <a href="#" class="icon-link">
+          Linkedin
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"></use></svg>
+        </a>
+      </div>
+      <div class="col">
+        <div class="icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+          </svg>
+        </div>
+        <h2>Email</h2>
+        <p>Här är min email om man vill komma i kontakt med mig för att snacka lite mer.</p>
+        <a href="#" class="icon-link">
+          Min Epost
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"></use></svg>
+        </a>
+      </div>
+      <div class="col">
+        <div class="icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+            <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+          </svg>
+        </div>
+        <h2>Telefon</h2>
+        <p>Här är mitt telefon nummer ifall ni vill Swisha lite cash till mig.</p>
+        <a href="#" class="icon-link">
+          Mitt nummer
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"></use></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>
